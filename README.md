@@ -90,7 +90,7 @@ def untar(fname, dirs):
 **Download and extract the sample dataset**
 
 ```python
-url = 'https://github.com/lspatial/geographnet/raw/master/pmdatain.pkl.tar.gz'
+url = 'https://github.com/lspatial/geographnetdata/raw/master/pmdatain.pkl.tar.gz'
 tarfl='./pmdatain.pkl.tar.gz'
 print("Downloading from "+url+' ... ...')
 urllib.request.urlretrieve(url, tarfl)
